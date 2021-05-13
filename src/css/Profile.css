@@ -1,0 +1,61 @@
+.profile-user{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.profile-username{
+    margin-left: 10px;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.profile-pic-name{
+    display: flex;
+    flex-direction: row;
+}
+.profile-update-button{
+    border: none;
+    background: none;
+    padding: 0;
+}
+.profile-update-button>img{
+    border-radius: 50%;
+    margin-top: 10px;
+    width: 75px;
+    height: 75px;
+}
+.followers-following>p{
+    display: block;
+    margin: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+.followers-following{
+    margin: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+hr{
+    color: black;
+    
+}
+.profile-posts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+.edit-post-button{
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+}
+.profile-title{
+    font-size: large;
+}
+.profile-description{
+    align-items: center;
+}

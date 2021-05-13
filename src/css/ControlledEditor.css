@@ -1,0 +1,26 @@
+.editor-form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.editor-input{
+    margin-top: 1rem;
+    width: 60%;
+    padding: 10px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+.button{
+    cursor: pointer;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    background-color: white;
+}
+.demo-wrapper{
+    width: 80%;
+}
+.demo-editor{
+    width: 80%;
+}

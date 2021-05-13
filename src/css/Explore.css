@@ -1,0 +1,15 @@
+.blogs-container{
+    display: flex;
+    flex-direction: column;
+
+}
+.blogs{
+   
+}
+.next-button{
+    background: none;
+    text-decoration: none;
+    border: none;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}

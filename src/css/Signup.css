@@ -1,0 +1,49 @@
+ .signup-form{
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     width: 100%;
+ }
+ .basic-input{
+     margin-top: 1rem;
+     width: 100%;
+     padding: 10px 5px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: medium;
+ }
+
+ .profile-picture-label{
+     margin: 1.8rem;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: medium;
+ }
+
+.profile-picture-input{
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+ .signup-span{
+     margin-top: 1.2rem;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: medium;
+ }
+ .signup-form>span>label > a{
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+.signup-form >button{
+    cursor: pointer;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    background-color: white;
+}
+.signup-form>p{
+    color: red;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
